@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Bill() {
-  
+function Bill({ bill }) {
+  console.log(bill)
   return (
     <div>
-        <h1>Bill</h1>
+        <p>{bill.short_title}</p>
     </div>
   )
 }
