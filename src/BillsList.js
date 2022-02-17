@@ -11,7 +11,7 @@ function BillsList({bills}) {
 
   return (
     <div>
-        <h1>Bills List</h1>
+        <h1>Bills Introduced Since </h1>
         {allBills}
     </div>
   )

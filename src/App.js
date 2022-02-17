@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Heading from "./Heading";
 import Home from "./Home";
 import BillsList from "./BillsList";
 import Navigation from "./Navigation";
@@ -26,12 +27,12 @@ function App() {
       //   .then(data => setBills(data.results[0].bills))
   }, [])
 
-
 // console.log(bills)
 
   return (
     <Router>
       <div className="App">
+        <Route path="/" component={Heading} />
         <Route path="/" component={Navigation}/>
         <Switch>
           <Route exact path="/" component={Home} />
