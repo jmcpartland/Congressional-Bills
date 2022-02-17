@@ -13,17 +13,17 @@ function App() {
 
 
   useEffect(() => {
-    // fetch(billsUrl)
-    //   .then((r) => r.json())
-    //   .then((data) => setBills(data))
+    fetch(billsUrl)
+      .then((r) => r.json())
+      .then((data) => setBills(data))
 
-      fetch(propublicaUrl, {
-        headers: {
-          'X-API-Key' : propublicaKey
-        }
-      })
-        .then(response => response.json())
-        .then(data => setBills(data.results[0].bills))
+      // fetch(propublicaUrl, {
+      //   headers: {
+      //     'X-API-Key' : propublicaKey
+      //   }
+      // })
+      //   .then(response => response.json())
+      //   .then(data => setBills(data.results[0].bills))
   }, [])
 
 

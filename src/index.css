@@ -23,3 +23,26 @@ code {
   font-size: 16px;
   font-weight: bold;
 }
+
+.bill-short-title {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.bill-introduced-date {
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.bills-logo {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  width: 40px;
+  height: 40px;  
+}
