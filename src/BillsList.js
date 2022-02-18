@@ -1,17 +1,22 @@
 import React, { useState } from 'react'
 import Bill from './Bill'
+import logo from "./images/bills-icon.png"
 
 function BillsList({bills}) {
 
   const allBills = bills.map((bill) => {
-    return <Bill bill={bill} /> 
+    return (
+      <div className="box">
+        <img src={logo} className="bills-logo" />
+        <span className="bill-short-title" >{bill.short_title}</span>
+        <span className="bill-introduced-date" >Introduced on: {bill.introduced_date}</span>
+      </div>
+    ) 
   })
-
-  console.log(allBills)
 
   return (
     <div>
-        <h1>Bills Introduced Since </h1>
+        <h1>Senate Bills Introduced In 2021</h1>
         {allBills}
     </div>
   )

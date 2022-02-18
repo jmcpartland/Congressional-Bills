@@ -3,7 +3,7 @@ import React from 'react'
 function Heading() {
   return (
     <div>
-        <h1>Heading</h1>
+        <h1>Congressional Bills 2021</h1>
     </div>
   )
 }

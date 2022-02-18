@@ -17,18 +17,8 @@ function App() {
     fetch(billsUrl)
       .then((r) => r.json())
       .then((data) => setBills(data))
-
-      // fetch(propublicaUrl, {
-      //   headers: {
-      //     'X-API-Key' : propublicaKey
-      //   }
-      // })
-      //   .then(response => response.json())
-      //   .then(data => setBills(data.results[0].bills))
   }, [])
-
-// console.log(bills)
-
+  
   return (
     <Router>
       <div className="App">
