@@ -17,7 +17,7 @@ function Navigation() {
         
         <NavLink
           className="links"
-          to="/billsList" exact
+          to="/billsContainer" exact
           activeStyle={{
             background: "darkgreen",
           }}

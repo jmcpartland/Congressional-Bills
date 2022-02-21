@@ -1,9 +1,12 @@
 import React from 'react'
+import Search from './Search'
 
-function Heading() {
+
+function Heading({ handleSearch }) {
+
   return (
     <div>
-        <h1>Congressional Bills 2021</h1>
+        <Search handleSearch={handleSearch} />
     </div>
   )
 }
