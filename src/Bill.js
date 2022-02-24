@@ -6,8 +6,8 @@ function Bill({ bill }) {
   return (
       <div className="box">
           <img src={logo} className="bills-logo" />
-          <span className="bill-short-title" >{bill.short_title}</span>
-          <span className="bill-introduced-date" >Introduced on: {bill.introduced_date}</span>
+          <p className="bill-short-title" >{bill.short_title}</p>
+          <p className="bill-introduced-date" >Introduced on: {bill.introduced_date}</p>
       </div>
   )
 }

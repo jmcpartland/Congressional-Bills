@@ -25,24 +25,24 @@ code {
 }
 
 .bill-short-title {
-  margin-bottom: 4px;
   font-weight: bold;
 }
 
-.bill-introduced-date {
+/* .bill-introduced-date {
   margin-left: 30px;
-  margin-top: 0px;
-}
+  margin-top: 0px; 
+} */
 
 .box {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
+  margin-left: 6px;
 }
 
 .bills-logo {
-  margin-right: 10px;
+  /* margin-right: 10px;
   margin-left: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 5px; */
   width: 30px;
   height: 30px;  
 }

@@ -1,12 +1,11 @@
 import React from 'react'
-import Search from './Search'
 
 
-function Heading({ handleSearch }) {
+function Heading() {
 
   return (
     <div>
-        <Search handleSearch={handleSearch} />
+        <h1>Heading</h1>
     </div>
   )
 }
