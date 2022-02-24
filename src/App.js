@@ -9,8 +9,7 @@ import Navigation from "./Navigation";
 
 function App() {
   const billsUrl = "http://localhost:3001/bills"
-  const propublicaUrl = "https://api.propublica.org/congress/v1/117/senate/bills/enacted.json"
-  const propublicaKey = 'tNm5YIP9zO7SCYymYDfjB73IRmhUzMmC8beETVXI'
+
   const [bills, setBills] = useState([])
 
   let theBills = []
@@ -19,8 +18,8 @@ function App() {
     fetch(billsUrl)
     .then((r) => r.json())
     .then((data) => {
-        theBills = [...data]
-        setBills(theBills)
+        // theBills = [...data]
+        setBills(data, bills.comments="")
     })
   }, [])
 
@@ -33,7 +32,7 @@ function App() {
         <Route path="/" component={Navigation}/>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/billsIndex/:id">
+          <Route path="/billsIndex/:id">
              <BillsShow bills={bills} />
           </Route>
           <Route exact path="/billsIndex">
