@@ -30,12 +30,8 @@
         "D": 2
       },
       "comments": [
-        "1 Test",
-        "2 Test",
         "3 Test",
-        "4 Test",
-        "5 Test",
-        "6 Test"
+        "4 Test"
       ],
       "committees": "Senate Health, Education, Labor, and Pensions Committee",
       "committee_codes": [
@@ -126,8 +122,7 @@
       },
       "comments": [
         "1 Test",
-        "2 Test",
-        "3 Test"
+        "2 Test"
       ],
       "committees": "Senate Health, Education, Labor, and Pensions Committee",
       "committee_codes": [
@@ -191,7 +186,7 @@
       "latest_major_action": "Passed Senate without amendment by Voice Vote."
     },
     {
-      "id": 5,
+        "id": 5,
       "bill_id": "hr3419-117",
       "bill_slug": "hr3419",
       "bill_type": "hr",
@@ -237,7 +232,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 6,
+        "id": 6,
       "bill_id": "hr3210-117",
       "bill_slug": "hr3210",
       "bill_type": "hr",
@@ -283,7 +278,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 7,
+        "id": 7,
       "bill_id": "hr2044-117",
       "bill_slug": "hr2044",
       "bill_type": "hr",
@@ -329,7 +324,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 8,
+        "id": 8,
       "bill_id": "hr960-117",
       "bill_slug": "hr960",
       "bill_type": "hr",
@@ -375,7 +370,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 9,
+        "id": 9,
       "bill_id": "hr2497-117",
       "bill_slug": "hr2497",
       "bill_type": "hr",
@@ -424,7 +419,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 10,
+        "id": 10,
       "bill_id": "s583-117",
       "bill_slug": "s583",
       "bill_type": "s",
@@ -469,7 +464,7 @@
       "latest_major_action": "Presented to President."
     },
     {
-      "id": 11,
+        "id": 11,
       "bill_id": "s566-117",
       "bill_slug": "s566",
       "bill_type": "s",
@@ -513,7 +508,7 @@
       "latest_major_action": "Presented to President."
     },
     {
-      "id": 12,
+        "id": 12,
       "bill_id": "hr4445-117",
       "bill_slug": "hr4445",
       "bill_type": "hr",
@@ -558,7 +553,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 13,
+        "id": 13,
       "bill_id": "s559-117",
       "bill_slug": "s559",
       "bill_type": "s",
@@ -605,7 +600,7 @@
       "latest_major_action": "Referred to the Subcommittee for Indigenous Peoples of the United States."
     },
     {
-      "id": 14,
+        "id": 14,
       "bill_id": "s314-117",
       "bill_slug": "s314",
       "bill_type": "s",
@@ -652,7 +647,7 @@
       "latest_major_action": "Referred to the Subcommittee for Indigenous Peoples of the United States."
     },
     {
-      "id": 15,
+        "id": 15,
       "bill_id": "s2159-117",
       "bill_slug": "s2159",
       "bill_type": "s",
@@ -696,7 +691,7 @@
       "latest_major_action": "Held at the desk."
     },
     {
-      "id": 16,
+        "id": 16,
       "bill_id": "hr1281-117",
       "bill_slug": "hr1281",
       "bill_type": "hr",
@@ -744,7 +739,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 17,
+        "id": 17,
       "bill_id": "s1404-117",
       "bill_slug": "s1404",
       "bill_type": "s",
@@ -790,7 +785,7 @@
       "latest_major_action": "Became Public Law No: 117-85."
     },
     {
-      "id": 18,
+        "id": 18,
       "bill_id": "s452-117",
       "bill_slug": "s452",
       "bill_type": "s",
@@ -836,7 +831,7 @@
       "latest_major_action": "Became Public Law No: 117-84."
     },
     {
-      "id": 19,
+        "id": 19,
       "bill_id": "s2959-117",
       "bill_slug": "s2959",
       "bill_type": "s",
@@ -881,7 +876,7 @@
       "latest_major_action": "Became Public Law No: 117-83."
     },
     {
-      "id": 20,
+        "id": 20,
       "bill_id": "hr1192-117",
       "bill_slug": "hr1192",
       "bill_type": "hr",
@@ -929,7 +924,7 @@
       "latest_major_action": "Became Public Law No: 117-82."
     },
     {
-      "id": 21,
+        "id": 21,
       "bill_id": "hr5746-117",
       "bill_slug": "hr5746",
       "bill_type": "hr",
@@ -975,7 +970,7 @@
       "latest_major_action": "Motion to proceed to consideration of the motion to reconsider the vote by which cloture on the motion to concur in the House amendment to the Senate amendment to H.R. 5746 (Record Vote No. 9) withdrawn in Senate."
     },
     {
-      "id": 22,
+        "id": 22,
       "bill_id": "s2520-117",
       "bill_slug": "s2520",
       "bill_type": "s",
@@ -1021,7 +1016,7 @@
       "latest_major_action": "Referred to the House Committee on Homeland Security."
     },
     {
-      "id": 23,
+        "id": 23,
       "bill_id": "hr2471-117",
       "bill_slug": "hr2471",
       "bill_type": "hr",
@@ -1067,7 +1062,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 24,
+        "id": 24,
       "bill_id": "s2201-117",
       "bill_slug": "s2201",
       "bill_type": "s",
@@ -1112,7 +1107,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 25,
+        "id": 25,
       "bill_id": "s789-117",
       "bill_slug": "s789",
       "bill_type": "s",
@@ -1161,7 +1156,7 @@
       "latest_major_action": "Referred to the Subcommittee for Indigenous Peoples of the United States."
     },
     {
-      "id": 26,
+        "id": 26,
       "bill_id": "s450-117",
       "bill_slug": "s450",
       "bill_type": "s",
@@ -1207,7 +1202,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 27,
+        "id": 27,
       "bill_id": "s1605-117",
       "bill_slug": "s1605",
       "bill_type": "s",
@@ -1253,7 +1248,7 @@
       "latest_major_action": "Became Public Law No: 117-81."
     },
     {
-      "id": 28,
+        "id": 28,
       "bill_id": "hr1664-117",
       "bill_slug": "hr1664",
       "bill_type": "hr",
@@ -1301,7 +1296,7 @@
       "latest_major_action": "Became Public Law No: 117-80."
     },
     {
-      "id": 29,
+        "id": 29,
       "bill_id": "hr6256-117",
       "bill_slug": "hr6256",
       "bill_type": "hr",
@@ -1345,7 +1340,7 @@
       "latest_major_action": "Became Public Law No: 117-78."
     },
     {
-      "id": 30,
+        "id": 30,
       "bill_id": "hr3537-117",
       "bill_slug": "hr3537",
       "bill_type": "hr",
@@ -1392,7 +1387,7 @@
       "latest_major_action": "Became Public Law No: 117-79."
     },
     {
-      "id": 31,
+        "id": 31,
       "bill_id": "hr5545-117",
       "bill_slug": "hr5545",
       "bill_type": "hr",
@@ -1439,7 +1434,7 @@
       "latest_major_action": "Became Public Law No: 117-76."
     },
     {
-      "id": 32,
+        "id": 32,
       "bill_id": "hr4660-117",
       "bill_slug": "hr4660",
       "bill_type": "hr",
@@ -1484,7 +1479,7 @@
       "latest_major_action": "Became Public Law No: 117-75."
     },
     {
-      "id": 33,
+        "id": 33,
       "bill_id": "hr390-117",
       "bill_slug": "hr390",
       "bill_type": "hr",
@@ -1532,7 +1527,7 @@
       "latest_major_action": "Became Public Law No: 117-74."
     },
     {
-      "id": 34,
+        "id": 34,
       "bill_id": "s2551-117",
       "bill_slug": "s2551",
       "bill_type": "s",
@@ -1576,7 +1571,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 35,
+        "id": 35,
       "bill_id": "s2514-117",
       "bill_slug": "s2514",
       "bill_type": "s",
@@ -1620,7 +1615,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 36,
+        "id": 36,
       "bill_id": "s1760-117",
       "bill_slug": "s1760",
       "bill_type": "s",
@@ -1662,7 +1657,7 @@
       "latest_major_action": "Message on Senate action sent to the House."
     },
     {
-      "id": 37,
+        "id": 37,
       "bill_id": "s3103-117",
       "bill_slug": "s3103",
       "bill_type": "s",
@@ -1707,7 +1702,7 @@
       "latest_major_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 276."
     },
     {
-      "id": 38,
+        "id": 38,
       "bill_id": "s3059-117",
       "bill_slug": "s3059",
       "bill_type": "s",
@@ -1752,7 +1747,7 @@
       "latest_major_action": "Passed Senate without amendment by Voice Vote."
     },
     {
-      "id": 39,
+        "id": 39,
       "bill_id": "s2710-117",
       "bill_slug": "s2710",
       "bill_type": "s",
@@ -1797,7 +1792,7 @@
       "latest_major_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 275."
     },
     {
-      "id": 40,
+        "id": 40,
       "bill_id": "s2521-117",
       "bill_slug": "s2521",
       "bill_type": "s",
@@ -1842,7 +1837,7 @@
       "latest_major_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 280."
     },
     {
-      "id": 41,
+        "id": 41,
       "bill_id": "s2123-117",
       "bill_slug": "s2123",
       "bill_type": "s",
@@ -1887,7 +1882,7 @@
       "latest_major_action": "Ordered placed on Senate Legislative Calendar under General Orders. Calendar No. 277."
     },
     {
-      "id": 42,
+        "id": 42,
       "bill_id": "s2042-117",
       "bill_slug": "s2042",
       "bill_type": "s",
@@ -1932,7 +1927,7 @@
       "latest_major_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 279."
     },
     {
-      "id": 43,
+        "id": 43,
       "bill_id": "s1617-117",
       "bill_slug": "s1617",
       "bill_type": "s",
@@ -1977,7 +1972,7 @@
       "latest_major_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 278."
     },
     {
-      "id": 44,
+        "id": 44,
       "bill_id": "s442-117",
       "bill_slug": "s442",
       "bill_type": "s",
@@ -2021,7 +2016,7 @@
       "latest_major_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 274."
     },
     {
-      "id": 45,
+        "id": 45,
       "bill_id": "sres438-117",
       "bill_slug": "sres438",
       "bill_type": "sres",
@@ -2066,7 +2061,7 @@
       "latest_major_action": "Resolution agreed to in Senate without amendment and with a preamble by Unanimous Consent. (consideration: CR S722; text: 11/03/2021 CR S7723-7724)"
     },
     {
-      "id": 46,
+        "id": 46,
       "bill_id": "s1894-117",
       "bill_slug": "s1894",
       "bill_type": "s",
@@ -2110,7 +2105,7 @@
       "latest_major_action": "By Senator Cantwell from Committee on Commerce, Science, and Transportation filed written report. Report No. 117-78."
     },
     {
-      "id": 47,
+        "id": 47,
       "bill_id": "s1289-117",
       "bill_slug": "s1289",
       "bill_type": "s",
@@ -2155,7 +2150,7 @@
       "latest_major_action": "By Senator Cantwell from Committee on Commerce, Science, and Transportation filed written report. Report No. 117-77."
     },
     {
-      "id": 48,
+        "id": 48,
       "bill_id": "s381-117",
       "bill_slug": "s381",
       "bill_type": "s",
@@ -2200,7 +2195,7 @@
       "latest_major_action": "By Senator Cantwell from Committee on Commerce, Science, and Transportation filed written report. Report No. 117-76."
     },
     {
-      "id": 49,
+        "id": 49,
       "bill_id": "s163-117",
       "bill_slug": "s163",
       "bill_type": "s",
@@ -2245,7 +2240,7 @@
       "latest_major_action": "By Senator Cantwell from Committee on Commerce, Science, and Transportation filed written report. Report No. 117-75."
     },
     {
-      "id": 50,
+        "id": 50,
       "bill_id": "s140-117",
       "bill_slug": "s140",
       "bill_type": "s",
@@ -2290,7 +2285,7 @@
       "latest_major_action": "By Senator Cantwell from Committee on Commerce, Science, and Transportation filed written report. Report No. 117-74."
     },
     {
-      "id": 51,
+        "id": 51,
       "bill_id": "s2991-117",
       "bill_slug": "s2991",
       "bill_type": "s",
@@ -2335,7 +2330,7 @@
       "latest_major_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 272."
     },
     {
-      "id": 52,
+        "id": 52,
       "bill_id": "sres467-117",
       "bill_slug": "sres467",
       "bill_type": "sres",
@@ -2380,7 +2375,7 @@
       "latest_major_action": "Resolution agreed to in Senate with an amendment and an amended preamble by Unanimous Consent. (text: CR S650)"
     },
     {
-      "id": 53,
+        "id": 53,
       "bill_id": "s2524-117",
       "bill_slug": "s2524",
       "bill_type": "s",
@@ -2426,7 +2421,7 @@
       "latest_major_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 271."
     },
     {
-      "id": 54,
+        "id": 54,
       "bill_id": "s2158-117",
       "bill_slug": "s2158",
       "bill_type": "s",
@@ -2472,7 +2467,7 @@
       "latest_major_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 270."
     },
     {
-      "id": 55,
+        "id": 55,
       "bill_id": "s609-117",
       "bill_slug": "s609",
       "bill_type": "s",

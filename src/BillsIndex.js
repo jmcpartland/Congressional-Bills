@@ -3,17 +3,16 @@ import { Link } from "react-router-dom";
 import logo from "./images/bills-icon.png";
 
 function BillsIndex({ bills }) {
-
+  
   const allBills = bills.map((bill) => {
-
     return (
       <div key={bill.bill_id}>
         <div className="box" >
           <img src={logo} className="bills-logo" />
-        <Link to={`/billsIndex/${bill.bill_id}`}>
-          <p className="bill-short-title" >{bill.short_title}</p>
-          <p className="bill-introduced-date" >Introduced on: {bill.introduced_date}</p>
-        </Link>
+          <Link to={`/billsIndex/${bill.bill_id}`}>
+            <p className="bill-short-title" >{bill.short_title}</p>
+            <p className="bill-introduced-date" >Introduced on: {bill.introduced_date}</p>
+          </Link>
         </div>
       </div>
     )

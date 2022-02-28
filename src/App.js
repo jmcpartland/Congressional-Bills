@@ -9,21 +9,22 @@ import Navigation from "./Navigation";
 
 function App() {
   const billsUrl = "http://localhost:3001/bills"
-
   const [bills, setBills] = useState([])
-
-  let theBills = []
 
   useEffect(() => {
     fetch(billsUrl)
     .then((r) => r.json())
     .then((data) => {
-        // theBills = [...data]
-        setBills(data, bills.comments="")
-    })
+        setBills(data)
+        })
   }, [])
 
-  // console.log(bills[1])
+
+  // Putting entire app in a loading state
+  if (bills.length <= 0) return <h1 className="loading">Loading...</h1>
+  
+  // console.log(bills)
+
 
   return (
     <Router>
@@ -33,7 +34,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/billsIndex/:id">
-             <BillsShow bills={bills} />
+             <BillsShow bills={bills} setBills={setBills} />
           </Route>
           <Route exact path="/billsIndex">
             <BillsIndex bills={bills} />
