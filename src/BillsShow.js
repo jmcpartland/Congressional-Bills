@@ -23,7 +23,6 @@ function BillsShow({ bills, setBills }) {
     function submit(e) {
         e.preventDefault();
         updateComments()
-
         
         fetch(thisBillUrl, {
             method: 'PATCH',
@@ -36,9 +35,7 @@ function BillsShow({ bills, setBills }) {
             })
         })
         .then(response => response.json(comments))
-        .then(data => setBills(bills))
     }
-    
     
     function handleChange(e) {
         setComment(e.target.value)
