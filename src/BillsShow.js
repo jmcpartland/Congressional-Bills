@@ -14,25 +14,29 @@ function BillsShow({ bills, setBills }) {
     }, [])
 
     function updateComments() {
-        setComments([...comments, comment])
-        // setBills([...bills, thisBill.comments])
+        const c = comments.push(comment)
+        setComments(() => comments)
+        setBills([...bills, (thisBill.comments = [comments])])
+        console.log(comments)
     }
     
     function submit(e) {
         e.preventDefault();
         updateComments()
 
-        console.log(comments)
+        
         fetch(thisBillUrl, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
             },
-            body: JSON.stringify({"comments": comments})
+            body: JSON.stringify({
+                'comments': comments
+            })
         })
-        .then(response => response.json())
-        .then(data => console.log(data))
+        .then(response => response.json(comments))
+        .then(data => setBills(bills))
     }
     
     
