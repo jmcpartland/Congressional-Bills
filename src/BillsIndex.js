@@ -7,7 +7,7 @@ function BillsIndex({ bills }) {
   const allBills = bills.map((bill) => {
     return (
       <div key={bill.bill_id}>
-        <div className="box" >
+        <div className="billsindex" >
           <img src={logo} className="bills-logo" />
           <Link to={`/billsIndex/${bill.bill_id}`}>
             <p className="bill-short-title" >{bill.short_title}</p>

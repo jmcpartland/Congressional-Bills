@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom'
 function Navigation() {
 
     return (
-        <div>
+        <div className="links">
         <NavLink
-          className="links"
+          className="button"
           to="/" exact
           activeStyle={{
             background: "darkgreen",
@@ -16,7 +16,7 @@ function Navigation() {
         </NavLink>
         
         <NavLink
-          className="links"
+          className="button"
           to="/billsIndex" exact
           activeStyle={{
             background: "darkgreen",

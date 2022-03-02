@@ -4,7 +4,6 @@ import Heading from "./Heading";
 import Home from "./Home";
 import BillsIndex from "./BillsIndex";
 import BillsShow from "./BillsShow";
-import Navigation from "./Navigation";
 
 
 function App() {
@@ -30,7 +29,6 @@ function App() {
     <Router>
       <div className="App">
         <Route path="/" render={() => <Heading />} />
-        <Route path="/" component={Navigation}/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/billsIndex/:id">

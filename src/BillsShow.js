@@ -42,7 +42,7 @@ function BillsShow({ bills, setBills }) {
     }
 
     return (
-        <div>
+        <div className="billsshow">
             <p><b>Title:</b> {thisBill.title}</p>
             <p><b>Number:</b> {thisBill.number}</p>
             <p><b>Sponsored by:</b> {thisBill.sponsor_name} ({thisBill.sponsor_party})</p>

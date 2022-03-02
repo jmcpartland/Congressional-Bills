@@ -30,8 +30,12 @@
         "D": 2
       },
       "comments": [
-        "1 Test",
-        "2 Test"
+        [
+          "1 Test",
+          "2 Test",
+          "This is a comment"
+        ],
+        "hello Jenny!"
       ],
       "committees": "Senate Health, Education, Labor, and Pensions Committee",
       "committee_codes": [

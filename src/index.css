@@ -1,10 +1,39 @@
-body {
+.body {
+  display: flex;
+  flex-wrap: nowrap;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* .billsshow {
+  background-color: rgb(237, 237, 237);
+  padding: 15px;
+} */
+
+.heading {
+  background-color: lightgray;
+  padding: 15px;
+}
+
+.title {
+  align-self:flex-start;
+  justify-content: baseline;
+  font-family: sans-serif;
+}
+
+.logo {
+  /* align-self: flex-end; */
+  width: 5%;
+  height: 5%;
+}
+
+.bills-logo {
+  width: 30px;
+  height: 30px;  
 }
 
 code {
@@ -12,7 +41,7 @@ code {
     monospace;
 }
 
-.links {
+.button {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -28,21 +57,7 @@ code {
   font-weight: bold;
 }
 
-/* .bill-introduced-date {
-  margin-left: 30px;
-  margin-top: 0px; 
-} */
-
-.box {
-  /* display: flex;
-  align-items: center; */
-  margin-left: 6px;
-}
-
 .bills-logo {
-  /* margin-right: 10px;
-  margin-left: 10px;
-  margin-bottom: 5px; */
   width: 30px;
   height: 30px;  
 }
