@@ -17,7 +17,7 @@ function BillsShow({ bills, setBills }) {
         const c = comments.push(comment)
         setComments(() => comments)
         setBills([...bills, (thisBill.comments = [comments])])
-        console.log(comments)
+        setComment("")
     }
     
     function submit(e) {
@@ -42,14 +42,17 @@ function BillsShow({ bills, setBills }) {
     }
 
     return (
-        <div className="billsshow">
-            <p><b>Bill Title:</b> {thisBill.title}</p>
-            <p><b>Bill Number:</b> {thisBill.number}</p>
-            <p><b>Sponsored by:</b> {thisBill.sponsor_name} ({thisBill.sponsor_party})</p>
-            <ul><b>Comments:</b> {comments.map((c) => <li key={c}>{c}</li>)}</ul>
+        <div className="bill-details">
+            <p className="bill-specs"><b>Bill Title:</b> {thisBill.title}</p>
+            <p className="bill-specs"><b>Bill Number:</b> {thisBill.number}</p>
+            <p className="bill-specs"><b>Sponsored by:</b> {thisBill.sponsor_name} ({thisBill.sponsor_party})</p>
+            <p className="bill-specs"><b>Subject:</b> {thisBill.primary_subject}</p>
+            <p className="bill-specs"><b>Summary:</b> {thisBill.summary}</p>
+            
+            <p className="bill-specs"><b>Comments:</b> {comments.map((c) => <li key={c}>{c}</li>)}</p>
             <br></br>
             <form onSubmit={submit}>
-                <label>Add Comments: </label><br></br>
+                <label><b>Add Comments:</b> </label><br></br>
                 <textarea 
                     name="Comment" 
                     onChange={handleChange}
@@ -57,7 +60,7 @@ function BillsShow({ bills, setBills }) {
                     rows="10"cols="80"
                 />
                 <br></br>
-                <input type="submit" value="Submit" />
+                <input  className="button" type="submit" value="Submit" />
             </form>
         </div>
     )

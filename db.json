@@ -30,12 +30,6 @@
         "D": 2
       },
       "comments": [
-        [
-          "1 Test",
-          "2 Test",
-          "This is a comment"
-        ],
-        "hello Jenny!"
       ],
       "committees": "Senate Health, Education, Labor, and Pensions Committee",
       "committee_codes": [
@@ -124,9 +118,7 @@
         "D": 136
       },
       "comments": [
-        "1 Test",
-        "2 Test",
-        "3 Test"
+        "1 Test"
       ],
       "committees": "Senate Health, Education, Labor, and Pensions Committee",
       "committee_codes": [
@@ -266,8 +258,8 @@
         "R": 3
       },
       "comments": [
-        "1 Test",
-        "2 Test"
+        "test 2",
+        "test 5"
       ],
       "committees": "Senate Homeland Security and Governmental Affairs Committee",
       "committee_codes": [
@@ -1604,8 +1596,6 @@
         "R": 1
       },
       "comments": [
-        "1 Test",
-        "2 Test"
       ],
       "committees": "Senate Veterans&#39; Affairs Committee",
       "committee_codes": [
@@ -1646,8 +1636,6 @@
       "cosponsors": 0,
       "cosponsors_by_party": {},
       "comments": [
-        "1 Test",
-        "2 Test"
       ],
       "committees": "Senate Veterans&#39; Affairs Committee",
       "committee_codes": [
@@ -1826,8 +1814,6 @@
         "D": 1
       },
       "comments": [
-        "1 Test",
-        "2 Test"
       ],
       "committees": "Senate Small Business and Entrepreneurship Committee",
       "committee_codes": [
