@@ -44,9 +44,8 @@ body {
 
 .bills-list {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  /* justify-content:space-around; */
+  /* flex-wrap: wrap; */
+  align-items:flex-start;
 }
 
 a {
@@ -58,17 +57,22 @@ a:hover {
 }
 
 .bills-logo {
-  margin-right: 10px;  
+  /* height: 32;
+  width: 32; */
+  margin-right: 5px;  
 }
 
 .bill-short-title {
-  margin-right: 10vw;
-  margin-left: 5vw;
+  /* margin-right: 10vw; */
+  margin-left: 12px;
+  margin-bottom: 3px;
   font-weight: bold;
 }
 
 .bill-introduced-date {
-  
+  /* margin-right: 10vw; */
+  margin-left: 12px;
+  margin-bottom: 2vh;
 }
 
 code {
@@ -77,9 +81,10 @@ code {
 }
 
 .button {
-  background-color: #4CAF50;
+  background-color: darkblue;
   border: none;
   color: white;
+  margin: 5px;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
