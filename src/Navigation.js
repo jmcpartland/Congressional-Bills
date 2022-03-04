@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 function Navigation() {
 
     return (
-        <div className="links">
+      <div className="links">
         <NavLink
           className="button"
           to="/" exact

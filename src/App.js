@@ -30,13 +30,15 @@ function App() {
       <div className="App">
         <Route path="/" render={() => <Heading />} />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/billsIndex/:id">
-             <BillsShow bills={bills} setBills={setBills} />
-          </Route>
-          <Route exact path="/billsIndex">
-            <BillsIndex bills={bills} />
-          </Route>
+          <div className="content">
+            <Route exact path="/" component={Home} />
+            <Route path="/billsIndex/:id">
+              <BillsShow bills={bills} setBills={setBills} />
+            </Route>
+            <Route exact path="/billsIndex">
+              <BillsIndex bills={bills} />
+            </Route>
+          </div>
         </Switch>
       </div>
     </Router>

@@ -43,8 +43,8 @@ function BillsShow({ bills, setBills }) {
 
     return (
         <div className="billsshow">
-            <p><b>Title:</b> {thisBill.title}</p>
-            <p><b>Number:</b> {thisBill.number}</p>
+            <p><b>Bill Title:</b> {thisBill.title}</p>
+            <p><b>Bill Number:</b> {thisBill.number}</p>
             <p><b>Sponsored by:</b> {thisBill.sponsor_name} ({thisBill.sponsor_party})</p>
             <ul><b>Comments:</b> {comments.map((c) => <li key={c}>{c}</li>)}</ul>
             <br></br>

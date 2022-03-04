@@ -1,39 +1,74 @@
-.body {
-  display: flex;
-  flex-wrap: nowrap;
+body {
+  /* display: flex;
+  flex-wrap: nowrap; */
+  height: 100vh;
+  width: 100vw;
   margin: 0;
-  font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* .billsshow {
-  background-color: rgb(237, 237, 237);
-  padding: 15px;
-} */
-
-.heading {
-  background-color: lightgray;
-  padding: 15px;
-}
-
-.title {
-  align-self:flex-start;
-  justify-content: baseline;
+.content {
+  display: flex;
+  padding-left: 1vw;
   font-family: sans-serif;
 }
-
+  
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: gray;
+}
+  
 .logo {
-  /* align-self: flex-end; */
-  width: 5%;
-  height: 5%;
+  margin: 0 1vw;
+}
+  
+.title {
+  margin: 0 1vw;
+  font-family: sans-serif;
+  color: white;
+}
+
+.links {
+  margin: 0 1vw;
+}
+
+/* .bills-index {
+  
+} */
+
+.bills-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content:space-around; */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
 }
 
 .bills-logo {
-  width: 30px;
-  height: 30px;  
+  margin-right: 10px;  
+}
+
+.bill-short-title {
+  margin-right: 10vw;
+  margin-left: 5vw;
+  font-weight: bold;
+}
+
+.bill-introduced-date {
+  
 }
 
 code {
@@ -51,13 +86,4 @@ code {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
-}
-
-.bill-short-title {
-  font-weight: bold;
-}
-
-.bills-logo {
-  width: 30px;
-  height: 30px;  
 }
