@@ -46,6 +46,7 @@ function BillsShow({ bills, setBills }) {
             <p className="bill-specs"><b>Bill Title:</b> {thisBill.title}</p>
             <p className="bill-specs"><b>Bill Number:</b> {thisBill.number}</p>
             <p className="bill-specs"><b>Sponsored by:</b> {thisBill.sponsor_name} ({thisBill.sponsor_party})</p>
+            <p className="bill-specs"><b>Sponsor State:</b> {thisBill.sponsor_state}</p>
             <p className="bill-specs"><b>Subject:</b> {thisBill.primary_subject}</p>
             <p className="bill-specs"><b>Summary:</b> {thisBill.summary}</p>
             

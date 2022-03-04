@@ -8,6 +8,10 @@ function Home() {
         <p>Congressional bills are legislative proposals from the House of Representatives and Senate within the United States Congress.</p>
         <p>There are eight different types of bills. There are numerous different bill versions that track a bill through the legislative process</p>
         <p>from introduction through passage by both chambers (enrolled version). All final published bill versions are available from GPO.</p>
+        <br></br>
+        Please click on the Bills button to see a list of all 2021 Bills.
+        You can click on an individual Bill to see more details,
+        and write a comment about it.
     </div>
   );
 }
