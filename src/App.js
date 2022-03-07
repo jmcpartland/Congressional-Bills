@@ -10,6 +10,17 @@ function App() {
   const billsUrl = "http://localhost:3001/bills"
   const [bills, setBills] = useState([])
 
+  function updateBill(newBill) {
+    const newBills = bills.map((b) => {
+      if(b.id === newBill.id) {
+        return newBill
+      } else {
+        return b
+      }
+    })
+    setBills(newBills)
+  }
+
   useEffect(() => {
     fetch(billsUrl)
     .then((r) => r.json())
@@ -22,23 +33,21 @@ function App() {
   // Putting entire app in a loading state
   if (bills.length <= 0) return <h1 className="loading">Loading...</h1>
   
-  // console.log(bills)
-
 
   return (
     <Router>
       <div className="App">
         <Route path="/" render={() => <Heading />} />
         <Switch>
-          <div className="content">
+        <div className="content">
             <Route exact path="/" component={Home} />
             <Route path="/billsIndex/:id">
-              <BillsShow bills={bills} setBills={setBills} />
+              <BillsShow bills={bills} updateBill={updateBill} />
             </Route>
             <Route exact path="/billsIndex">
               <BillsIndex bills={bills} />
             </Route>
-          </div>
+        </div>
         </Switch>
       </div>
     </Router>

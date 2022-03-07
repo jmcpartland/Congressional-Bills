@@ -76,6 +76,19 @@ a:hover {
   margin-bottom: 2vh;
 }
 
+.subject-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: darkgreen;
+  margin-top: 0vh;
+  margin-bottom: 3vh;
+}
+.subject {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0vh;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

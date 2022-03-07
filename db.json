@@ -30,6 +30,7 @@
         "D": 2
       },
       "comments": [
+        "this is a comment"
       ],
       "committees": "Senate Health, Education, Labor, and Pensions Committee",
       "committee_codes": [
@@ -74,7 +75,8 @@
         "ID": 2
       },
       "comments": [
-        "1 Test"
+        "1 Test",
+        "This is a test comment"
       ],
       "committees": "Senate Banking, Housing, and Urban Affairs Committee",
       "committee_codes": [
@@ -397,7 +399,8 @@
       },
       "comments": [
         "1 Test",
-        "2 Test"
+        "2 Test",
+        "this is a test comment"
       ],
       "committees": "Senate Energy and Natural Resources Committee",
       "committee_codes": [
@@ -1595,8 +1598,7 @@
       "cosponsors_by_party": {
         "R": 1
       },
-      "comments": [
-      ],
+      "comments": [],
       "committees": "Senate Veterans&#39; Affairs Committee",
       "committee_codes": [
         "SSVA"
@@ -1635,8 +1637,7 @@
       "vetoed": null,
       "cosponsors": 0,
       "cosponsors_by_party": {},
-      "comments": [
-      ],
+      "comments": [],
       "committees": "Senate Veterans&#39; Affairs Committee",
       "committee_codes": [
         "SSVA"
@@ -1813,8 +1814,7 @@
         "R": 1,
         "D": 1
       },
-      "comments": [
-      ],
+      "comments": [],
       "committees": "Senate Small Business and Entrepreneurship Committee",
       "committee_codes": [
         "SSSB"
