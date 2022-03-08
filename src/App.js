@@ -38,8 +38,8 @@ function App() {
     <Router>
       <div className="App">
         <Route path="/" render={() => <Heading />} />
-        <Switch>
         <div className="content">
+        <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/billsIndex/:id">
               <BillsShow bills={bills} updateBill={updateBill} />
@@ -47,8 +47,8 @@ function App() {
             <Route exact path="/billsIndex">
               <BillsIndex bills={bills} />
             </Route>
-        </div>
         </Switch>
+        </div>
       </div>
     </Router>
   );
