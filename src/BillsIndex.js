@@ -11,7 +11,7 @@ function BillsIndex({ bills }) {
           <img src={logo} className="bills-logo" />
           <Link to={`/billsIndex/${bill.bill_id}`}>
             <div className="bill-short-title" >{bill.short_title}</div>
-            <div className="bill-introduced-date" >Introduced on: {bill.introduced_date}</div>
+            <div className="bill-introduced-date">Introduced on: {bill.introduced_date}</div>
           </Link>
         </div>
       </div>
