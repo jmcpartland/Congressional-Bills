@@ -5,7 +5,6 @@ import Home from "./Home";
 import BillsIndex from "./BillsIndex";
 import BillsShow from "./BillsShow";
 
-
 function App() {
   const billsUrl = "http://localhost:3001/bills"
   const [bills, setBills] = useState([])
@@ -29,11 +28,9 @@ function App() {
         })
   }, [])
 
-
   // Putting entire app in a loading state
   if (bills.length <= 0) return <h1 className="loading">Loading...</h1>
   
-
   return (
     <Router>
       <div className="App">
